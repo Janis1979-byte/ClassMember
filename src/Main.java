@@ -237,12 +237,12 @@ System.out.println(output);*/
         System.out.println(begini.toUpperCase()+lastChar2.toUpperCase());
         System.out.println(text);
 */
-         //String text2 = "Sveiks  , [name]  [surname] ";
-         //System.out.println(text2.trim().length());
-      //  text2 = text2.trim();
+        //String text2 = "Sveiks  , [name]  [surname] ";
+        //System.out.println(text2.trim().length());
+        //  text2 = text2.trim();
 
 
-       // text2.indexOf("");
+        // text2.indexOf("");
       /*  String a = text2.substring(0, text2.indexOf(" "));
         String b = text2.substring(text2.lastIndexOf(" ") +1);
         //System.out.println(text2);
@@ -260,7 +260,7 @@ System.out.println(output);*/
         text2 = text2.replace("[surname]", surname);
         System.out.println(text2);*/
 
-        System.out.print("Ievadiet tekstu 1: ");
+        /*System.out.print("Ievadiet tekstu 1: ");
         Scanner scanner = new Scanner(System.in);
         String teksts1 = scanner.nextLine();
         System.out.print("Ievadiet  tekstu 2:");
@@ -268,28 +268,65 @@ System.out.println(output);*/
         scanner.close();
         //String garakais = teksts2.length() > teksts1.length() ? teksts2 : teksts1;
        // String isakai = teksts1.length() < teksts2.length() ? teksts1 : teksts2;
-    /*    if(teksts1.length() >= teksts2.length() ) {
+    *//*    if(teksts1.length() >= teksts2.length() ) {
             System.out.println(teksts2+teksts1.toUpperCase()+teksts2);
         } else {
             System.out.println(teksts1+teksts2.toUpperCase()+teksts1);
 
-        }*/
+        }*//*
 //System.out.println(isakai+garakais.toUpperCase()+isakai);
         System.out.println(teksts1.length() >= teksts2.length() ? teksts2+teksts1.toUpperCase()+teksts2 :teksts1+teksts2.toUpperCase()+teksts1 );
+*/
 
+
+
+/*        int i = 1;
+        while (i <= 10) {
+            if (i==5) {
+                i++;
+                continue;
+            }
+            System.out.println(i++);
+
+        }*/
+
+/*int i= 1;
+int y = 0;
+while( i <=10) {
+    y +=i;
+    System.out.println(i++);
+}
+        System.out.println(y);
+}
+    }*/
+
+/*
+System.out.print("Ludziu ievadi tekstu: ");
+Scanner scanner = new Scanner(System.in);
+String teksts = scanner.nextLine();
+scanner.close();
+int i =0;
+while(i < teksts.length()) {
+    System.out.println(Character.toUpperCase(teksts.charAt(i)));
+    i++;
+}
+    }
+}
+*/
+
+        System.out.println("Ludzu ievadiet skaitli:");
+        Scanner scanner = new Scanner(System.in);
+        int x= scanner.nextInt();
+        scanner.close();
+        int y = 1;
+        while(y <= x) {
+            //System.out.println(x +"x" + y + " = " +x*y);
+            System.out.printf("%d * %d = %d\n", x, y, x*y);
+         y++;
         }
 
 
-
-        }
-
-
-
-
-
-
-
-
+    }}
 
 
 
