@@ -260,6 +260,23 @@ System.out.println(output);*/
         text2 = text2.replace("[surname]", surname);
         System.out.println(text2);*/
 
+        System.out.print("Ievadiet tekstu 1: ");
+        Scanner scanner = new Scanner(System.in);
+        String teksts1 = scanner.nextLine();
+        System.out.print("Ievadiet  tekstu 2:");
+        String teksts2 = scanner.nextLine();
+        scanner.close();
+        //String garakais = teksts2.length() > teksts1.length() ? teksts2 : teksts1;
+       // String isakai = teksts1.length() < teksts2.length() ? teksts1 : teksts2;
+    /*    if(teksts1.length() >= teksts2.length() ) {
+            System.out.println(teksts2+teksts1.toUpperCase()+teksts2);
+        } else {
+            System.out.println(teksts1+teksts2.toUpperCase()+teksts1);
+
+        }*/
+//System.out.println(isakai+garakais.toUpperCase()+isakai);
+        System.out.println(teksts1.length() >= teksts2.length() ? teksts2+teksts1.toUpperCase()+teksts2 :teksts1+teksts2.toUpperCase()+teksts1 );
+
         }
 
 
