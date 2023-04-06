@@ -314,7 +314,7 @@ while(i < teksts.length()) {
 }
 */
 
-        System.out.println("Ludzu ievadiet skaitli:");
+   /*     System.out.println("Ludzu ievadiet skaitli:");
         Scanner scanner = new Scanner(System.in);
         int x= scanner.nextInt();
         scanner.close();
@@ -324,13 +324,43 @@ while(i < teksts.length()) {
             System.out.printf("%d * %d = %d\n", x, y, x*y);
          y++;
         }
+*/
+
+
+ /*       Scanner sc=new Scanner(System.in);
+        System.out.println("================================");
+        for(int i=0;i<3;i++) {
+            String s1 = sc.next();
+            int x = sc.nextInt();
+
+
+
+            System.out.printf("%-10s% 03d%n", s1, x);
+
+        }
+        sc.close();
+        System.out.println("================================");
+
+    }
+}
+
+*/
+        /*Scanner in = new Scanner(System.in);
+        int t=in.nextInt();
+        for(int i=0;i<t;i++){
+            int a = in.nextInt();
+            int b = in.nextInt();
+            int n = in.nextInt();
+            for(int j=0;j<n;j++){
+                a+=b*Math.pow(2,j);
+                System.out.print(a+" ");
+            }
+            System.out.println();
+        }
+
+        in.close();
+    }
+}*/
 
 
     }}
-
-
-
-
-
-
-
