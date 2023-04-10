@@ -2,8 +2,8 @@ import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
-public class nodarbiba9 {
-    public static void main(String[] args) {
+//public class nodarbiba9 {
+  //  public static void main(String[] args) {
 /*int i = 0;
 while(i<=10){
     System.out.println(i);
@@ -139,13 +139,13 @@ int y;*/
         }
         scanner.close();
         System.out.println("cipars uizminets: " + x + "\n Ievaditais cipars: " +y);*/
-       String[]masins = {"volvo", "bmw" };
+     /*   String[] masins = {"volvo", "bmw"};
 
 
         String car1 = "Volvo";
         String car2 = "audi";
-        String car3 ="Toyota";
-        String car4 = "opel";
+        String car3 = "Toyota";
+        String car4 = "opel";*/
 
 
 
@@ -159,13 +159,13 @@ int y;*/
         System.out.println(Arrays.toString(masins));
         System.out.println(masins[1]);*//*
 
-    *//*    int[] atzimes = {1,2,3,5,6,7,8};
+         *//*    int[] atzimes = {1,2,3,5,6,7,8};
         for(int i = 0; i <atzimes.length; i++) {
             System.out.println(atzimes[i]);*//*
 
             for(String element: masivs) {
              System.out.println(element);*/
-int x= 0;
+/*int x= 0;
 int[] grades = {1,8,80,17,10,6,7,8} ;
 int a = grades.length;
 for(int i =0; i<grades.length; i++) {
@@ -174,11 +174,11 @@ for(int i =0; i<grades.length; i++) {
 }
 float average = (float)x/a;
 
- System.out.println(x/a);
+ System.out.println(x/a);*/
 
-     System.out.printf("%.3f", average);
+       // System.out.printf("%.3f", average);
 // System.out.println( grades.length/sum);
-}
+    //}
 
  /*    int TotalSum=0;
      int A[]={1,2,3,4,5};
@@ -190,7 +190,11 @@ float average = (float)x/a;
     }
 }*/
 
-        }
+  // System.out.println("")
+
+//}
+
+
 
 
 
