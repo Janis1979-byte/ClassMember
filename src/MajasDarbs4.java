@@ -32,7 +32,7 @@ public class MajasDarbs4 {
         System.out.println(Arrays.toString(array));
 
         for (int element : array) {
-            System.out.printf(" \\[ %d  ]\\", element);
+            System.out.printf(" %d", element );
 
         }
     }
