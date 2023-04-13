@@ -7,9 +7,12 @@ public class nodarbiba10 {
     public static void main(String[] args) {
 
 Random random = new Random();
+Scanner scanner = new Scanner(System.in);
+        System.out.println("Ievadam masiva izmeru: ");
+        int massiveSize = scanner.nextInt();
 
-        int[] names = new int[20];
-
+        int[] names = new int[massiveSize];
+scanner.close();
        for(int i=0; i<names.length; i++) { //TODO: Nomainit uz Random (robežās no 20 lidz 50)
          names[i] = random.nextInt(31)+20;
        }
@@ -18,8 +21,6 @@ for(int i =0; i<names.length/2; i++){
         int temp = names[i];
         names[i] = names[names.length-i-1];
         names[names.length-i-1] = temp;
-
-
     }
         System.out.println(Arrays.toString(names));
 
