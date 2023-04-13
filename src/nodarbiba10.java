@@ -22,14 +22,26 @@ for(int i =0; i<names.length/2; i++){
         names[i] = names[names.length-i-1];
         names[names.length-i-1] = temp;
     }
-        System.out.println(Arrays.toString(names));
+        //System.out.println(Arrays.toString(names));
 
+       // for(int i =0; i < names.length; i++)
+    /*    {
+            System.out.print(names[i]);
+            if(i < names.length -1) {
+                System.out.print(",");
+            }*/
+            ;
+int i = 0;
+    for(int name : names) {
+    System.out.print(name );
+   if(i < names.length -1) {
+            System.out.print(",");
+}
+i++;
+      // for(int i= 0; i< names.length; i++) {
+          // if(names[i].toLowerCase().startsWith(search.toLowerCase()))
 
-
-      /* for(int i= 0; i< names.length; i++) {
-           if(names[i].toLowerCase().startsWith(search.toLowerCase()))
-
-           System.out.println(names[i]);*/
+         //  System.out.println(names[i]);*/
        }
 
 
@@ -62,4 +74,4 @@ int[] intArray = {3,1,5,4,2,8,5,6,7,2,5,6,4,9,10,52,38,64};
 */
 
 
-           }
+           } }
