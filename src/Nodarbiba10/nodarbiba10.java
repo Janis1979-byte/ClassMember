@@ -1,3 +1,5 @@
+package Nodarbiba10;
+
 import java.sql.Array;
 import java.util.Arrays;
 import java.util.Random;

@@ -1,3 +1,10 @@
+package Nodarbiba13;
+
+import jdk.nashorn.internal.ir.annotations.Ignore;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
 
 public class nodarbiba13 {
@@ -25,7 +32,7 @@ public class nodarbiba13 {
             catch(Exception e)
             {
                 System.out.println(sc.next()+" can't be fitted anywhere.");*/
-        Scanner scan = new Scanner(System.in);
+        /*Scanner scan = new Scanner(System.in);
         String rinda = scan.nextLine();
         scan.close();
         String a = "123,5";
@@ -44,8 +51,63 @@ public class nodarbiba13 {
         } catch (ArithmeticException exception) {
             System.out.println("dalijums ar nulli!");
         }
-        System.out.println("Programmas  beigas");
+        System.out.println("Programmas  beigas");*/
+/*try{
+    String[][] aray = {
+            {"a", "b"},
+            {"c"}
+    };
+    System.out.println(aray[0][0]);
+    System.out.println(aray[0][1]);
+    System.out.println(aray[1][0]);
+    System.out.println(aray[1][1]);
+} catch (ArrayIndexOutOfBoundsException ex) {
+    System.out.println("Megini pieklut elementam kas neeksiste");*/
 
-    }}
 
+/*int[] array = {1,2,3,4};
+///List<Integer> list = A
+List<Integer> numberList = new ArrayList<>(Arrays.asList(1,2,3,4));
+List<Integer> List2 = new ArrayList<>(Arrays.asList(5,6));
+numberList.addAll(3, List2);
+numberList.remove(new Integer(3));
+ *//*   numberList.add(1);
+      numberList.add(2);
+        numberList.add(4);
+        numberList.add(5);
+        numberList.add(6);
+        numberList.add(2, 3);*//*
+        System.out.println(numberList);*/
+
+   /*     List<String> soma = new ArrayList<>();
+        soma.add("Klade");
+        soma.add("mape");
+        soma.add("zimulis");
+        System.out.println(soma);
+        // soma.remove("klade");
+        for (int i = 0; i < soma.size(); i++) {
+            if (soma.get(i).equalsIgnoreCase("Mape")) {
+                soma.remove(i);
+            }
+
+        }
+        soma.set(0, "nauda");
+        soma.add(0,"soma");
+      //  System.out.println(soma);
+        for(String elemnt: soma){
+            System.out.println(elemnt);*/
+        List<List<Integer>> mylist = new ArrayList<>();
+        //List<Integer> tempList = new ArrayList<>(Arrays.asList(1,2,3));
+       // mylist.add(tempList);
+        mylist.add(new ArrayList<>(Arrays.asList(1,2,3)));
+       // List<Integer> tempList2 = new ArrayList<>(Arrays.asList(5,4,6));
+      //  mylist.add(tempList2);
+        mylist.add(new ArrayList<>(Arrays.asList(5,4,6)));
+        for(List<Integer> row:mylist) {
+            for(Integer item: row)
+            System.out.printf("%4d", item);       }
+
+        }
+
+    }
 

@@ -1,3 +1,5 @@
+package MD3;
+
 import java.util.Scanner;
 
 public class MajasDarbs3 {
