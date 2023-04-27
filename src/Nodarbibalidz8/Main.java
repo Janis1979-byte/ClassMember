@@ -1,7 +1,7 @@
 package Nodarbibalidz8;
 
 public class Main {
-    public static void main(String[] args) {
+   // public static void main(String[] args) {
 
 
 
@@ -360,5 +360,6 @@ while(i < teksts.length()) {
     }
 }*/
 
+        }
 
-    }}
+

@@ -10,7 +10,8 @@ public class StringTasks {
 
 String someText = scan.nextLine();
 scan.close();
-        System.out.println(StringUtils.getMiddle(someText));
-
+        System.out.printf("Text middle: %s \n", StringUtils.getMiddle(someText));
+        System.out.printf("Text reverse: %s \n", StringUtils.getReverse(someText));
+        System.out.printf("Is Palindrome: %s \n", StringUtils.isPalindrome(someText));
     }
 }

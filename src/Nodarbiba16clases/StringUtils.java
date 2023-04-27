@@ -18,17 +18,31 @@ public class StringUtils {
         char ch;
         for (int i = 0; i < text.length(); i++) {
             ch = text.charAt(i);
-            nstr = ch+nstr;
-
+            nstr = ch + nstr;
 
 
         }
         return nstr;
     }
 
+    public static boolean isPalindrome(String text) {
 
-    public static void main(String[] args) {
+       return(text.equalsIgnoreCase(getReverse(text)));
+            //return true;
+        }
+        /*char ch;
+        for (int i = 0; i < text.length(); i++) {
+            ch = text.charAt(i);
+            newText = ch + newText;
+            if (newText.equalsIgnoreCase(text)) {
+                return true;*/
 
-        System.out.println(getReverse("diena"));
-    }
+
+
+
+      //  return false;
+
+
 }
+
+
