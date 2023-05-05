@@ -50,7 +50,14 @@ static final double defaultRadisu = 3.14;
          */
         public double getCircleLength(){
     return 2 * defaultRadisu*this.radius;
+
         }
+
+        @Override
+        public String toString() {
+            return String.format("caolor = %s,  area =%.2f, circle length = %.2f \n", this.color, this.getArea(), this.getCircleLength());
+        }
+
 
 
 }

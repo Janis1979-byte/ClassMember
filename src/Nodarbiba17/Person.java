@@ -20,7 +20,7 @@ public class Person {
         this.age = age;
         this.idNumber = id;
     }
-Person(String name, String surName){
+ public Person(String name, String surName){
     this();
     this.name = name;
     this.surName = surName;
